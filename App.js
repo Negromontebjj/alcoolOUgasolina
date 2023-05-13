@@ -89,7 +89,9 @@ export default function alcoolOUgasolina() {
         
       </Modal>
       
-      
+      <View style={styles.Areameunome}>
+        <Text style={styles.Textmeunome}>By Carlos Negromonte</Text>
+      </View>
       
     </KeyboardAvoidingView>
   )
@@ -149,8 +151,13 @@ const styles = StyleSheet.create({
   textBTN:{
     color:'#fff',
     fontSize: 30,
-    
-
   },
+
+  Areameunome:{
+    alignItems:'center'
+  },
+  Textmeunome:{
+    color:'#ff0000'
+  }
 
 })
